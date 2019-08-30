@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090797582318D05F00EF3EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797572318D05F00EF3EB5 /* AppDelegate.swift */; };
+		0907975A2318D05F00EF3EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797592318D05F00EF3EB5 /* ViewController.swift */; };
+		0907975D2318D05F00EF3EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0907975B2318D05F00EF3EB5 /* Main.storyboard */; };
+		0907975F2318D05F00EF3EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0907975E2318D05F00EF3EB5 /* Assets.xcassets */; };
+		090797622318D05F00EF3EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090797602318D05F00EF3EB5 /* LaunchScreen.storyboard */; };
+		0907976D2318D05F00EF3EB5 /* myCloudMusicSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0907976C2318D05F00EF3EB5 /* myCloudMusicSwiftTests.swift */; };
+		090797782318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797772318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		090797692318D05F00EF3EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0907974C2318D05F00EF3EB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090797532318D05F00EF3EB5;
+			remoteInfo = myCloudMusicSwift;
+		};
+		090797742318D05F00EF3EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0907974C2318D05F00EF3EB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090797532318D05F00EF3EB5;
+			remoteInfo = myCloudMusicSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090797542318D05F00EF3EB5 /* myCloudMusicSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCloudMusicSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090797572318D05F00EF3EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		090797592318D05F00EF3EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0907975C2318D05F00EF3EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0907975E2318D05F00EF3EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090797612318D05F00EF3EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		090797632318D05F00EF3EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090797682318D05F00EF3EB5 /* myCloudMusicSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCloudMusicSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0907976C2318D05F00EF3EB5 /* myCloudMusicSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCloudMusicSwiftTests.swift; sourceTree = "<group>"; };
+		0907976E2318D05F00EF3EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090797732318D05F00EF3EB5 /* myCloudMusicSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myCloudMusicSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		090797772318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCloudMusicSwiftUITests.swift; sourceTree = "<group>"; };
+		090797792318D05F00EF3EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090797512318D05F00EF3EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090797652318D05F00EF3EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090797702318D05F00EF3EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0907974B2318D05F00EF3EB5 = {
+			isa = PBXGroup;
+			children = (
+				090797562318D05F00EF3EB5 /* myCloudMusicSwift */,
+				0907976B2318D05F00EF3EB5 /* myCloudMusicSwiftTests */,
+				090797762318D05F00EF3EB5 /* myCloudMusicSwiftUITests */,
+				090797552318D05F00EF3EB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090797552318D05F00EF3EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090797542318D05F00EF3EB5 /* myCloudMusicSwift.app */,
+				090797682318D05F00EF3EB5 /* myCloudMusicSwiftTests.xctest */,
+				090797732318D05F00EF3EB5 /* myCloudMusicSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090797562318D05F00EF3EB5 /* myCloudMusicSwift */ = {
+			isa = PBXGroup;
+			children = (
+				090797572318D05F00EF3EB5 /* AppDelegate.swift */,
+				090797592318D05F00EF3EB5 /* ViewController.swift */,
+				0907975B2318D05F00EF3EB5 /* Main.storyboard */,
+				0907975E2318D05F00EF3EB5 /* Assets.xcassets */,
+				090797602318D05F00EF3EB5 /* LaunchScreen.storyboard */,
+				090797632318D05F00EF3EB5 /* Info.plist */,
+			);
+			path = myCloudMusicSwift;
+			sourceTree = "<group>";
+		};
+		0907976B2318D05F00EF3EB5 /* myCloudMusicSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				0907976C2318D05F00EF3EB5 /* myCloudMusicSwiftTests.swift */,
+				0907976E2318D05F00EF3EB5 /* Info.plist */,
+			);
+			path = myCloudMusicSwiftTests;
+			sourceTree = "<group>";
+		};
+		090797762318D05F00EF3EB5 /* myCloudMusicSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				090797772318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift */,
+				090797792318D05F00EF3EB5 /* Info.plist */,
+			);
+			path = myCloudMusicSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090797532318D05F00EF3EB5 /* myCloudMusicSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0907977C2318D05F00EF3EB5 /* Build configuration list for PBXNativeTarget "myCloudMusicSwift" */;
+			buildPhases = (
+				090797502318D05F00EF3EB5 /* Sources */,
+				090797512318D05F00EF3EB5 /* Frameworks */,
+				090797522318D05F00EF3EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myCloudMusicSwift;
+			productName = myCloudMusicSwift;
+			productReference = 090797542318D05F00EF3EB5 /* myCloudMusicSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		090797672318D05F00EF3EB5 /* myCloudMusicSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0907977F2318D05F00EF3EB5 /* Build configuration list for PBXNativeTarget "myCloudMusicSwiftTests" */;
+			buildPhases = (
+				090797642318D05F00EF3EB5 /* Sources */,
+				090797652318D05F00EF3EB5 /* Frameworks */,
+				090797662318D05F00EF3EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0907976A2318D05F00EF3EB5 /* PBXTargetDependency */,
+			);
+			name = myCloudMusicSwiftTests;
+			productName = myCloudMusicSwiftTests;
+			productReference = 090797682318D05F00EF3EB5 /* myCloudMusicSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		090797722318D05F00EF3EB5 /* myCloudMusicSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090797822318D05F00EF3EB5 /* Build configuration list for PBXNativeTarget "myCloudMusicSwiftUITests" */;
+			buildPhases = (
+				0907976F2318D05F00EF3EB5 /* Sources */,
+				090797702318D05F00EF3EB5 /* Frameworks */,
+				090797712318D05F00EF3EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090797752318D05F00EF3EB5 /* PBXTargetDependency */,
+			);
+			name = myCloudMusicSwiftUITests;
+			productName = myCloudMusicSwiftUITests;
+			productReference = 090797732318D05F00EF3EB5 /* myCloudMusicSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0907974C2318D05F00EF3EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Zhanhua Xu";
+				TargetAttributes = {
+					090797532318D05F00EF3EB5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					090797672318D05F00EF3EB5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 090797532318D05F00EF3EB5;
+					};
+					090797722318D05F00EF3EB5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 090797532318D05F00EF3EB5;
+					};
+				};
+			};
+			buildConfigurationList = 0907974F2318D05F00EF3EB5 /* Build configuration list for PBXProject "myCloudMusicSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0907974B2318D05F00EF3EB5;
+			productRefGroup = 090797552318D05F00EF3EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090797532318D05F00EF3EB5 /* myCloudMusicSwift */,
+				090797672318D05F00EF3EB5 /* myCloudMusicSwiftTests */,
+				090797722318D05F00EF3EB5 /* myCloudMusicSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090797522318D05F00EF3EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090797622318D05F00EF3EB5 /* LaunchScreen.storyboard in Resources */,
+				0907975F2318D05F00EF3EB5 /* Assets.xcassets in Resources */,
+				0907975D2318D05F00EF3EB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090797662318D05F00EF3EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090797712318D05F00EF3EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090797502318D05F00EF3EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907975A2318D05F00EF3EB5 /* ViewController.swift in Sources */,
+				090797582318D05F00EF3EB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090797642318D05F00EF3EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907976D2318D05F00EF3EB5 /* myCloudMusicSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0907976F2318D05F00EF3EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090797782318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0907976A2318D05F00EF3EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090797532318D05F00EF3EB5 /* myCloudMusicSwift */;
+			targetProxy = 090797692318D05F00EF3EB5 /* PBXContainerItemProxy */;
+		};
+		090797752318D05F00EF3EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090797532318D05F00EF3EB5 /* myCloudMusicSwift */;
+			targetProxy = 090797742318D05F00EF3EB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0907975B2318D05F00EF3EB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0907975C2318D05F00EF3EB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		090797602318D05F00EF3EB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090797612318D05F00EF3EB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0907977A2318D05F00EF3EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0907977B2318D05F00EF3EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0907977D2318D05F00EF3EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2L5JD2FSD;
+				INFOPLIST_FILE = myCloudMusicSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfdata.myCloudMusicSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0907977E2318D05F00EF3EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2L5JD2FSD;
+				INFOPLIST_FILE = myCloudMusicSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfdata.myCloudMusicSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		090797802318D05F00EF3EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2L5JD2FSD;
+				INFOPLIST_FILE = myCloudMusicSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfdata.myCloudMusicSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myCloudMusicSwift.app/myCloudMusicSwift";
+			};
+			name = Debug;
+		};
+		090797812318D05F00EF3EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2L5JD2FSD;
+				INFOPLIST_FILE = myCloudMusicSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfdata.myCloudMusicSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myCloudMusicSwift.app/myCloudMusicSwift";
+			};
+			name = Release;
+		};
+		090797832318D05F00EF3EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2L5JD2FSD;
+				INFOPLIST_FILE = myCloudMusicSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfdata.myCloudMusicSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myCloudMusicSwift;
+			};
+			name = Debug;
+		};
+		090797842318D05F00EF3EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2L5JD2FSD;
+				INFOPLIST_FILE = myCloudMusicSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xfdata.myCloudMusicSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myCloudMusicSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0907974F2318D05F00EF3EB5 /* Build configuration list for PBXProject "myCloudMusicSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0907977A2318D05F00EF3EB5 /* Debug */,
+				0907977B2318D05F00EF3EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0907977C2318D05F00EF3EB5 /* Build configuration list for PBXNativeTarget "myCloudMusicSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0907977D2318D05F00EF3EB5 /* Debug */,
+				0907977E2318D05F00EF3EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0907977F2318D05F00EF3EB5 /* Build configuration list for PBXNativeTarget "myCloudMusicSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090797802318D05F00EF3EB5 /* Debug */,
+				090797812318D05F00EF3EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090797822318D05F00EF3EB5 /* Build configuration list for PBXNativeTarget "myCloudMusicSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090797832318D05F00EF3EB5 /* Debug */,
+				090797842318D05F00EF3EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0907974C2318D05F00EF3EB5 /* Project object */;
+}
