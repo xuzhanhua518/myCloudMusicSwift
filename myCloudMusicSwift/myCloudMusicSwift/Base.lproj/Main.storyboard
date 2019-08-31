@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,11 +13,59 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="myCloudMusicSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QaK-hx-R7x">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jY1-VR-KAb">
+                                        <rect key="frame" x="113" y="725.5" width="188" height="31.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31.5" id="cBZ-dM-fQe"/>
+                                            <constraint firstAttribute="width" constant="188" id="kAK-MY-P2f"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright @ 2019 xfdata. All Rights Reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2Z-tX-nUH">
+                                        <rect key="frame" x="33.5" y="777" width="347" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="T3m-aO-4om">
+                                        <rect key="frame" x="197" y="685.5" width="20" height="20"/>
+                                        <color key="color" red="0.92507362370000001" green="0.25633880450000002" blue="0.28211688579999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </activityIndicatorView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashBanner" translatesAutoresizingMaskIntoConstraints="NO" id="zKX-Iq-bf0">
+                                        <rect key="frame" x="168.5" y="100" width="77" height="320.00000000000023"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="77" id="Pjx-X3-ajj"/>
+                                            <constraint firstAttribute="height" constant="320" id="Zhm-WE-JRW"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="jY1-VR-KAb" firstAttribute="centerX" secondItem="QaK-hx-R7x" secondAttribute="centerX" id="9PW-Ok-k2T"/>
+                                    <constraint firstItem="zKX-Iq-bf0" firstAttribute="top" secondItem="QaK-hx-R7x" secondAttribute="top" constant="100" id="HZk-wH-Opi"/>
+                                    <constraint firstItem="V2Z-tX-nUH" firstAttribute="top" secondItem="jY1-VR-KAb" secondAttribute="bottom" constant="20" id="ZmA-6u-sNd"/>
+                                    <constraint firstItem="zKX-Iq-bf0" firstAttribute="centerX" secondItem="QaK-hx-R7x" secondAttribute="centerX" id="alY-64-tqR"/>
+                                    <constraint firstItem="T3m-aO-4om" firstAttribute="centerX" secondItem="QaK-hx-R7x" secondAttribute="centerX" id="k4I-Qa-ozL"/>
+                                    <constraint firstAttribute="bottom" secondItem="V2Z-tX-nUH" secondAttribute="bottom" constant="20" id="oKP-bY-bcY"/>
+                                    <constraint firstItem="V2Z-tX-nUH" firstAttribute="centerX" secondItem="QaK-hx-R7x" secondAttribute="centerX" id="ohR-yq-9Zf"/>
+                                    <constraint firstItem="jY1-VR-KAb" firstAttribute="top" secondItem="T3m-aO-4om" secondAttribute="bottom" constant="20" id="phS-p3-Znc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QaK-hx-R7x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5qp-jE-IXa"/>
+                            <constraint firstItem="QaK-hx-R7x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="C3d-Kf-Yw8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QaK-hx-R7x" secondAttribute="bottom" id="Dgu-fI-eMj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QaK-hx-R7x" secondAttribute="trailing" id="cAw-8m-VWX"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -21,4 +73,8 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="SplashBanner" width="224" height="927"/>
+        <image name="SplashLogo" width="564" height="95"/>
+    </resources>
 </document>

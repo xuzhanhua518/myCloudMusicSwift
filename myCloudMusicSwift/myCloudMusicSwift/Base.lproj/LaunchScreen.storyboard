@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,9 +15,52 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJf-9q-3sr">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashBanner" translatesAutoresizingMaskIntoConstraints="NO" id="DPf-sf-ftz">
+                                        <rect key="frame" x="168.5" y="100" width="77" height="320.00000000000023"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="77" id="GHo-Jd-jCB"/>
+                                            <constraint firstAttribute="height" constant="320" id="k9n-vR-cjY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="kUF-6r-G0K">
+                                        <rect key="frame" x="113" y="725.5" width="188" height="31.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31.5" id="qFB-k8-SSh"/>
+                                            <constraint firstAttribute="width" constant="188" id="xMa-UI-67K"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright @ 2019 xfdata. All Rights Reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYb-cH-poH">
+                                        <rect key="frame" x="33.5" y="777" width="347" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="EYb-cH-poH" secondAttribute="bottom" constant="20" id="1si-tQ-WjX"/>
+                                    <constraint firstItem="kUF-6r-G0K" firstAttribute="centerX" secondItem="mJf-9q-3sr" secondAttribute="centerX" id="BzI-tO-3FW"/>
+                                    <constraint firstItem="DPf-sf-ftz" firstAttribute="centerX" secondItem="mJf-9q-3sr" secondAttribute="centerX" id="RKo-1f-EkR"/>
+                                    <constraint firstItem="DPf-sf-ftz" firstAttribute="top" secondItem="mJf-9q-3sr" secondAttribute="top" constant="100" id="lXl-nw-Bje"/>
+                                    <constraint firstItem="EYb-cH-poH" firstAttribute="top" secondItem="kUF-6r-G0K" secondAttribute="bottom" constant="20" id="rL4-81-S2W"/>
+                                    <constraint firstItem="EYb-cH-poH" firstAttribute="centerX" secondItem="mJf-9q-3sr" secondAttribute="centerX" id="xfh-Ev-TCN"/>
+                                    <constraint firstAttribute="bottom" secondItem="kUF-6r-G0K" secondAttribute="bottom" constant="20" id="zFJ-tI-q50"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mJf-9q-3sr" secondAttribute="bottom" id="IyF-nq-apw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mJf-9q-3sr" secondAttribute="trailing" id="PNs-2y-GOW"/>
+                            <constraint firstItem="mJf-9q-3sr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dU4-d9-Nvc"/>
+                            <constraint firstItem="mJf-9q-3sr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="v9y-oM-uLF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +69,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SplashBanner" width="224" height="927"/>
+        <image name="SplashLogo" width="564" height="95"/>
+    </resources>
 </document>
