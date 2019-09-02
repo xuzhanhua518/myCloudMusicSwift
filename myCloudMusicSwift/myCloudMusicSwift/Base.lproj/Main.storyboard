@@ -75,7 +75,7 @@
         <!--Guide Controller-->
         <scene sceneID="E6d-N1-YiR">
             <objects>
-                <viewController id="REx-yd-27O" customClass="GuideController" customModule="myCloudMusicSwift" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Guide" id="REx-yd-27O" customClass="GuideController" customModule="myCloudMusicSwift" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="Guide" id="nP6-MK-e93">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tO3-NN-2LB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1462" y="19"/>
+            <point key="canvasLocation" x="1455" y="76"/>
         </scene>
     </scenes>
     <resources>

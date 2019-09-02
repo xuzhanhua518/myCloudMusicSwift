@@ -15,6 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
+    //定义一个静态的计算属性
+    //返回AppDelegate对象实例
+    open class var shared: AppDelegate{
+        get{
+            return UIApplication.shared.delegate as! AppDelegate
+        }
+    }
+    
     
 //    跳转到引导界面
     func toGuide() {
