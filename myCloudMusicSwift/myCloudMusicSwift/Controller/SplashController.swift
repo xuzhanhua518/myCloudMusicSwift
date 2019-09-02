@@ -24,6 +24,16 @@ class SplashController: UIViewController {
 //    延时3秒后调用
     func next(){
         print("SplashController next")
+        
+        
+        //获取当前应用的AppDelegate对象
+        //全局只有一个
+        
+        //这里可能会报错 找不到AppDelegate 这属于正常现象
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        //调用它里面的方法显示引导界面
+        appDelegate.toGuide()
     }
     
 }

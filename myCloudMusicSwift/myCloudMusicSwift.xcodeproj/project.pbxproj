@@ -16,6 +16,8 @@
 		090797782318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797772318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift */; };
 		090797C1231A428100EF3EB5 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797C0231A428100EF3EB5 /* SplashController.swift */; };
 		090797C2231A428100EF3EB5 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797C0231A428100EF3EB5 /* SplashController.swift */; };
+		090797C4231B9D9C00EF3EB5 /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797C3231B9D9C00EF3EB5 /* GuideController.swift */; };
+		090797C5231B9D9C00EF3EB5 /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797C3231B9D9C00EF3EB5 /* GuideController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		090797772318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCloudMusicSwiftUITests.swift; sourceTree = "<group>"; };
 		090797792318D05F00EF3EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		090797C0231A428100EF3EB5 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		090797C3231B9D9C00EF3EB5 /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				090797C0231A428100EF3EB5 /* SplashController.swift */,
+				090797C3231B9D9C00EF3EB5 /* GuideController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +274,7 @@
 			files = (
 				0907975A2318D05F00EF3EB5 /* ViewController.swift in Sources */,
 				090797582318D05F00EF3EB5 /* AppDelegate.swift in Sources */,
+				090797C4231B9D9C00EF3EB5 /* GuideController.swift in Sources */,
 				090797C1231A428100EF3EB5 /* SplashController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				090797C2231A428100EF3EB5 /* SplashController.swift in Sources */,
+				090797C5231B9D9C00EF3EB5 /* GuideController.swift in Sources */,
 				090797782318D05F00EF3EB5 /* myCloudMusicSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

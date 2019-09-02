@@ -1,6 +1,8 @@
 //
 //  AppDelegate.swift
-//  myCloudMusicSwift
+//  AppDelegate全局只有一个
+//  它的功能就是代理系统的一些时间
+//  例如：APP切换到后台或前台
 //
 //  Created by 徐展华 on 2019/8/30.
 //  Copyright © 2019 Zhanhua Xu. All rights reserved.
@@ -12,6 +14,26 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    
+//    跳转到引导界面
+    func toGuide() {
+        //获取到Main.storyboard
+        let mainStory = UIStoryboard(name: "Main", bundle: nil)
+        
+        //实例化Guide场景
+        //因为场景关联了控制器
+        //所以说也可以说实例化了一个控制
+        //只是这个过程是系统创建的
+        //不是我们手动完成的
+        let
+            controller = mainStory
+            .instantiateViewController(withIdentifier:"Guide")
+        
+        //替换掉原来的根控制器
+        //目的是，我们不希望用户还能返回到启动界面
+        window!.rootViewController = controller
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
