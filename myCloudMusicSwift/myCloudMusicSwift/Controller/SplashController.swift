@@ -16,14 +16,14 @@ class SplashController: UIViewController {
         super.viewDidLoad()
         
         //延时3秒钟
-        DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
             self.next()
         }
     }
     
 //    延时3秒后调用
     func next(){
-        print("SplashController next")
+        //print("SplashController next")
         
         
 //        //获取当前应用的AppDelegate对象
