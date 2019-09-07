@@ -29,28 +29,28 @@ class GuideController: UIViewController {
     //当布局完成后
     override func viewDidLayoutSubviews() {
         //拿到当前view的frame
-        let contentFrame = view.frame
+        //let contentFrame = view.frame
 
         //计算底部按钮垂直位置 y轴的值
-        let buttonY = (vwFooterContainer.frame.height - 40)/2
+        let buttonY = (vwFooterContainer.frame.height - CGFloat(SIZE_BUTTON_ENTER_HEIGHT))/2
 
         //计算登录注册按钮的水平位置，x位置
-        let btLoginOrRegintstX = (vwFooterContainer.frame.width - (130*2))/3
+        let btLoginOrRegintstX = (vwFooterContainer.frame.width - (CGFloat(SIZE_BUTTON_ENTER_WIDTH)*2))/3
 
         //设置登录注册按钮的位置以及大小
-        btLoginOrRegister.frame = CGRect(x: btLoginOrRegintstX, y: buttonY, width: 130, height: 40)
+        btLoginOrRegister.frame = CGRect(x: btLoginOrRegintstX, y: buttonY, width: CGFloat(SIZE_BUTTON_ENTER_WIDTH), height: CGFloat(SIZE_BUTTON_ENTER_HEIGHT))
         
         //计算立即体验的X位置
-        let btEnterX = btLoginOrRegintstX * 2 + 130
+        let btEnterX = btLoginOrRegintstX * 2 + CGFloat(SIZE_BUTTON_ENTER_WIDTH)
         
         //立即体验按钮的位置以及大小
-        btEnter.frame = CGRect(x: btEnterX, y: buttonY, width: 130, height: 40)
+        btEnter.frame = CGRect(x: btEnterX, y: buttonY, width: CGFloat(SIZE_BUTTON_ENTER_WIDTH), height: CGFloat(SIZE_BUTTON_ENTER_HEIGHT))
         
         //登录注册按钮圆角为20
-        btLoginOrRegister.layer.cornerRadius = 20
+        btLoginOrRegister.layer.cornerRadius = 22
         
         //立即体验按钮圆角为20
-        btEnter.layer.cornerRadius = 20
+        btEnter.layer.cornerRadius = 22
         
         //设置立即体验按钮边框，1
         btEnter.layer.borderWidth = 1

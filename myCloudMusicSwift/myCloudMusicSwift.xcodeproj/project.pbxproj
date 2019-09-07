@@ -18,6 +18,7 @@
 		090797C2231A428100EF3EB5 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797C0231A428100EF3EB5 /* SplashController.swift */; };
 		090797C4231B9D9C00EF3EB5 /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797C3231B9D9C00EF3EB5 /* GuideController.swift */; };
 		090797C5231B9D9C00EF3EB5 /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797C3231B9D9C00EF3EB5 /* GuideController.swift */; };
+		090797C823239E8F00EF3EB5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090797C723239E8F00EF3EB5 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		090797792318D05F00EF3EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		090797C0231A428100EF3EB5 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		090797C3231B9D9C00EF3EB5 /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
+		090797C723239E8F00EF3EB5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		090797562318D05F00EF3EB5 /* myCloudMusicSwift */ = {
 			isa = PBXGroup;
 			children = (
+				090797C623239E7300EF3EB5 /* Util */,
 				090797BF231A420800EF3EB5 /* Controller */,
 				090797572318D05F00EF3EB5 /* AppDelegate.swift */,
 				090797592318D05F00EF3EB5 /* ViewController.swift */,
@@ -139,6 +142,14 @@
 				090797C3231B9D9C00EF3EB5 /* GuideController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		090797C623239E7300EF3EB5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				090797C723239E8F00EF3EB5 /* Constant.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +285,7 @@
 			files = (
 				0907975A2318D05F00EF3EB5 /* ViewController.swift in Sources */,
 				090797582318D05F00EF3EB5 /* AppDelegate.swift in Sources */,
+				090797C823239E8F00EF3EB5 /* Constant.swift in Sources */,
 				090797C4231B9D9C00EF3EB5 /* GuideController.swift in Sources */,
 				090797C1231A428100EF3EB5 /* SplashController.swift in Sources */,
 			);
