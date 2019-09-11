@@ -15,3 +15,6 @@ let SIZE_BUTTON_ENTER_WIDTH = 140.0
 
 //立即体验按钮的高度
 let SIZE_BUTTON_ENTER_HEIGHT = 44.0
+
+//大圆角
+let SIZE_LARGE_RADIUS = 22

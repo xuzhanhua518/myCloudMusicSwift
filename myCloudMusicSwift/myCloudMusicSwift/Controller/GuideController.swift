@@ -46,11 +46,14 @@ class GuideController: UIViewController {
         //立即体验按钮的位置以及大小
         btEnter.frame = CGRect(x: btEnterX, y: buttonY, width: CGFloat(SIZE_BUTTON_ENTER_WIDTH), height: CGFloat(SIZE_BUTTON_ENTER_HEIGHT))
         
-        //登录注册按钮圆角为20
-        btLoginOrRegister.layer.cornerRadius = 22
+//        //登录注册按钮圆角为20
+        ViewUtil.showLargeRadius(view: btLoginOrRegister)
+//        btLoginOrRegister.layer.cornerRadius = 22
+//
+//        //立即体验按钮圆角为20
+        ViewUtil.showLargeRadius(view: btEnter)
+//        btEnter.layer.cornerRadius = 22
         
-        //立即体验按钮圆角为20
-        btEnter.layer.cornerRadius = 22
         
         //设置立即体验按钮边框，1
         btEnter.layer.borderWidth = 1
